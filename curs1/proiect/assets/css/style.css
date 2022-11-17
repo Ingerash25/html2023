@@ -1,0 +1,9 @@
+ul li{
+    display: inline-block;
+
+}
+li{
+    font-style: italic;
+    color: blue;
+    font-size: x-large;
+}
