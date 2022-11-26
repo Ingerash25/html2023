@@ -1,5 +1,18 @@
 
 /* General */
+<style>
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Rubik+Marker+Hatch&display=swap'); */
+
+@font-face {
+  font-family: 'Rubik Marker Hatch';
+  src: url('../font/RubikMarkerHatch-Regular.woff2') format('woff2'),
+      url('../font/RubikMarkerHatch-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+</style>
+
 html{ 
   height: 100%;
 }
@@ -30,7 +43,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 5px 0;}
 
 h1, h2, h3{ 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Rubik Marker Hatch', cursive, ;
   font-size: 1.5em;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
@@ -184,8 +198,9 @@ ul#menu li
   list-style: none;
   margin: 8px 4px 0 4px;}
 
-ul#menu li a
-{ 
+ul#menu li a{ 
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   display: block; 
   float: left; 
