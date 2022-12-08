@@ -1,3 +1,4 @@
+
 /* General */
 html{ 
     height: 100%;
@@ -391,3 +392,13 @@ html{
   { background: #E5E5DB;
     color: #47433F;
     border-top: 1px solid #ffffff;}
+    input{
+      padding: 10px 5px;
+      margin-left: 15px;
+
+  }
+  label{
+    display: inline-block;
+    width: 150px;
+
+}

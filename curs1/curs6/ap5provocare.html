@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/approvocare.css">
+</head>
+<body>
+    <div>
+            <h1>Registration form</h1>
+        <form action="" method="post"></form>
+            <label for="name">First Name</label> <br>
+            <input type="text" name="name" id="name"> <br>
+            <label for="lastname">Last Name</label> <br>
+            <input type="text" name="lastname" id="lastname"> <br>
+
+            <label for="birthday">Birthday</label> <br>
+            <input type="date" name="birthday" id="birthday"> <br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="Male" value="Male" checked> Male
+            <input type="radio" name="gender" id="Female" value="Female"> Female <br>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email"> <br>
+            <label for="phone">Phone Number</label> <br>
+            <input type="tel" name="phone" id="phone"> <br>
+            <label for="subject">Subject</label> <br>
+            <select name="subject[]" id="subject" required="required" >
+            <option value="">Choose option</option>
+            <option value="Subject 1">Subject 1</option>
+            <option value="Subject 2">Subject 2</option>
+            <option value="Subject 3">Subject 3</option>
+    </select> <br>
+    <input type="submit" value="Submit">
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML CSS Proiect 2022 - 2023</title>
+    <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
+    <meta name="keywords" content="website, site, CSS, HTML, proeict" />
+    <meta name="author" content="Tatiana">
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets3/images3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets3/images3/favicon-16x16.png">
+    <link rel='icon' type='image/x-icon' href='./assets3/images3/favicon.ico'/>
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="./assets3/css/style.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="acasa3.html">Coffe<span class="logo_colour">Shop</span></a></h1>
+          <h2>Contacte.</h2>
+        </div>
+    </div>
+        <nav id="menubar">
+            <ul id="menu">
+              <li><a href="acasa3.html">Acasa</a></li>
+              <li><a href="desprenoi3.html">Despre noi</a></li>
+              <li><a href="portofoliu3.html">Portofoliu</a></li>
+              <li><a href="blog3.html">Blog</a></li>
+              <li  class="selected"><a href="contacte3.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="main">
+            Formularul de plata
+        </div>  
+       <form action="" method="post"">
+        <fieldset>
+            <legend>Card</legend>
+            <label for="card">Numar card</label>
+            <input type="number" name="card" id="card" maxlength="14" required> <br>
+            <label for="data">Data de expirare</label>
+        <input type="date" name="data" id="data" required>
+        </fieldset>
+        <fieldset>
+            <legend>Livrare</legend>
+            <label for="prenume">Prenume</label>
+            <input type="text" name="prenume" id="prenume" placeholder="prenume" required> <br>
+            <label for="nume">Nume</label>
+            <input type="text" name="nume" id="nume" placeholder="Nume" required> <br>
+            <label for="companie">Companie</label>
+            <input type="text" name="companie" id="companie" placeholder="Companie" required> <br>
+            <label for="adresa">Adresa</label>
+            <input type="text" name="adresa" id="adresa" placeholder="Adresa" required> <br>
+            <label for="oras">Oras</label>
+            <input type="text" name="oras" id="oras" required> <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required> <br>
+            <label for="telefon">Telefon</label>
+            <input type="number" name="telefon" id="telefon" maxlength="9" required> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Adauga produsele</legend>
+            <label for="masina">Masina</label> 
+            <select name="masina" id="masina">
+                <option value="volvo">Volvo</option>
+                <option value="ford">Ford</option>
+                <option value="audi">Audi</option>
+                <option value="toyota">Toyota</option>
+            </select> <br>
+            <label for="mesaj">Mesaj</label>
+            <textarea name="mesaj" id=""mesaj cols="30" rows="10"></textarea> <br>
+            <label for="optional">Optional</label> <br>
+            <input type="checkbox" name="senzori" id="senzori">Senzori
+            <input type="checkbox" name="camera" id="camera">Camera <br>
+            <label for="culoarea">Culoarea</label> <br>
+            <input type="radio" name="culoarea" id="culoarea"> Negru metalizat <br>
+            <input type="radio" name="culoarea" id="culoarea"> Rosie <br>
+            <input type="radio" name="culoarea" id="culoarea"> Alb perla <br>
+            <input type="radio" name="culoarea" id="culoarea"> Albastru <br>
+        </fieldset>
+        <input type="submit" value="Trimite Date">
+    </form>
+
+    <h1>Adresa noastra este</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident aperiam ipsam amet, assumenda ratione inventore placeat eos mollitia consequatur? Odit quod sed culpa recusandae est nulla adipisci autem quam.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.043877889442!2d28.8123272!3d47.0393698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97dbe61a39335%3A0xea03b94bdd706247!2zU3RyYWRhIEJ1Y3VyaWVpIDEvNiwgQ2hpyJlpbsSDdQ!5e0!3m2!1sro!2s!4v1670527916717!5m2!1sro!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer id="footer">
+      <p><a href="acasa3.html">Home</a> | <a href="contacte3.html">Contact</a></p>
+      <p>Copyright &copy; Nume Prenume | <a href="">HTML5</a> | <a href="">CSS</a> </p>
+    </footer>
+  </body>
+</html>
